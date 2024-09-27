@@ -1,0 +1,82 @@
+.Content-Privacy-wrapper {
+  display: grid;
+  gap: 2rem;
+  margin: 2rem 4rem;
+}
+
+.Pricay-header {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.Pricay-header h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  text-align: center;
+  border-bottom: 2px solid #5c6c75;
+  margin: 0px;
+}
+
+.privacy-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(1fr));
+  padding: 0 2rem;
+}
+
+.privacycontnet {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.privacycontnet h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  /* border-bottom: 2rpx solid #5c6c75; */
+  margin: 0px;
+}
+
+.privacycontnet p {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  margin: 0px;
+}
+
+@media (max-width: 650px) {
+  .Content-Privacy-wrapper {
+    display: grid;
+    gap: 2rem;
+    margin: 1rem 1rem;
+  }
+  .Pricay-header h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    text-align: center;
+    border-bottom: 2rpx solid #5c6c75;
+    margin: 0px;
+  }
+
+  .privacy-container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(1fr));
+    padding: 0 1rem;
+  }
+
+  .privacycontnet h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    /* border-bottom: 2px solid #5c6c75; */
+    margin: 0px;
+  }
+
+  .privacycontnet p {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin: 0px;
+  }
+}
